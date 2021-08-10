@@ -365,6 +365,20 @@
   },
   {
     "inputs": [],
+    "name": "pepe",
+    "outputs": [
+      {
+        "internalType": "contract IERC20",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function",
+    "constant": true
+  },
+  {
+    "inputs": [],
     "name": "renounceOwnership",
     "outputs": [],
     "stateMutability": "nonpayable",
@@ -462,20 +476,6 @@
     "constant": true
   },
   {
-    "inputs": [],
-    "name": "wagyu",
-    "outputs": [
-      {
-        "internalType": "contract IERC20",
-        "name": "",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function",
-    "constant": true
-  },
-  {
     "inputs": [
       {
         "internalType": "uint256",
@@ -499,7 +499,7 @@
     "inputs": [
       {
         "internalType": "contract IERC20",
-        "name": "_wagyu",
+        "name": "_pepe",
         "type": "address"
       },
       {
